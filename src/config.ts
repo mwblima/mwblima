@@ -54,28 +54,25 @@ export const siteConfig = {
   ],
   articles: [
     {
-      title: "Designing Data Platforms with Domain-Driven Data Mesh",
-      date: "MAY 12, 2025",
-      category: "Data Architecture",
-      link: "#",
+      title: "Orchestration Architecture in Practice: 6 Items That Highlight AWS Step Functions",
+      date: "FEB 14, 2026",
+      category: "AWS & Data Engineering",
+      link: "https://marcoswinicyus.substack.com/p/arquitetura-de-orquestracao-na-pratica",
+      image: "/articles/step_fuction_1.jpg",
     },
     {
-      title: "Agentic Workflows: The Next Evolution of Automation",
-      date: "APR 28, 2025",
-      category: "AI & Automation",
-      link: "#",
+      title: "Unveiling Data Engineering Architectural Patterns: Insights and Trends",
+      date: "JAN 21, 2025",
+      category: "Data Engineering",
+      link: "https://www.linkedin.com/pulse/unveiling-data-engineering-architectural-patterns-trends-winicyus-pdbzf",
+      image: "/articles/data_eng_patterns.jpg",
     },
     {
-      title: "From Data to Decisions: Building Systems that Matter",
-      date: "APR 10, 2025",
-      category: "Systems Thinking",
-      link: "#",
-    },
-    {
-      title: "Data in Production: Lessons from Real Implementations",
-      date: "MAR 25, 2025",
-      category: "GenAI",
-      link: "#",
+      title: "Optimize Your Time: Simple Strategies for Better Results with Generative AI",
+      date: "JUL 23, 2024",
+      category: "Prompt Engineering",
+      link: "https://www.linkedin.com/pulse/otimize-seu-tempo-estrat%C3%A9gias-simples-para-melhores-com-winicyus-liq4f",
+      image: "/articles/prompting_end.jpg",
     }
   ],
   experience: [
