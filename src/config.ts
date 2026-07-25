@@ -9,7 +9,7 @@ export const siteConfig = {
     email: "marcoswinicyusbl@gmail.com",
     linkedin: "https://www.linkedin.com/in/marcos-winicyus",
     twitter: "",
-    github: "https://github.com/MarcosWinicyus",
+    github: "https://github.com/mwblima",
   },
   aboutMe: [
     "Marcos is a Senior Analytics Engineer and AI Engineer with 7+ years building high-scale data platforms for financial institutions including Nubank and Itaú.",
@@ -31,25 +31,12 @@ export const siteConfig = {
   ],
   projects: [
     {
-      name: "AI Documentation Migration Tool",
+      name: "Solver LP",
       description:
-        "Developed an AI-driven tool using Python and RAG to migrate and process 50,000+ pages of legacy documentation 8x faster.",
-      link: "https://stackspot.com/pt/blog/migracao-de-documentacoes",
-      skills: ["Python", "RAG", "Streamlit", "GenAI"],
-    },
-    {
-      name: "Internal Developer Platform",
-      description:
-        "Built a Python library standardizing AWS Glue configurations across the engineering team, reducing boilerplate by 40% and accelerating test coverage.",
-      link: "",
-      skills: ["Python", "AWS Glue", "CI/CD"],
-    },
-    {
-      name: "Serverless Orchestration Layer",
-      description:
-        "Designed a serverless orchestration layer using AWS Step Functions that reduced new investment product launch time by 20%.",
-      link: "https://marcoswinicyus.substack.com/p/arquitetura-de-orquestracao-na-pratica",
-      skills: ["AWS Step Functions", "Terraform", "FinOps"],
+        "The Visual Optimization System (Solver LP) is an interactive and didactic platform developed to assist in teaching and learning Operations Research. It focuses on the resolution and visualization of Linear Programming (Simplex Algorithm) and Integer Programming (Branch-and-Bound Algorithm) problems.",
+      link: "https://github.com/mwblima/solver-lp",
+      image: "/projects/Solver_LP.png",
+      skills: ["Operations Research", "Linear Programming", "Simplex Algorithm", "Branch-and-Bound"],
     },
   ],
   articles: [

@@ -101,7 +101,7 @@ const headlineHtml = headlineText.replace(
 );
 ---
 
-<section id="hero" class="relative w-full h-screen min-h-[700px] max-h-[900px] overflow-hidden flex flex-col justify-between pt-32 pb-8">
+<section id="hero" class="relative w-full h-screen min-h-[780px] max-h-[900px] overflow-hidden flex flex-col justify-between pt-28 pb-8">
   <!-- Grid Background (Layer 01) -->
   <svg class="absolute inset-0 w-full h-full -z-20 pointer-events-none opacity-[0.03]" aria-hidden="true">
     <defs>
@@ -114,7 +114,7 @@ const headlineHtml = headlineText.replace(
 
   <div class="max-w-[1600px] mx-auto px-8 w-full flex-1 min-h-0 flex flex-col md:flex-row relative z-10">
     <!-- Left Column: Content (40%) -->
-    <div class="w-full md:w-[45%] flex flex-col justify-center h-full pr-8 xl:pr-16 z-20">
+    <div class="w-full md:w-[45%] flex flex-col justify-center pr-8 xl:pr-16 z-20">
       <h1 
         class="text-4xl md:text-5xl lg:text-[56px] xl:text-[64px] leading-[1.1] font-display text-gray-900 mb-6 font-medium tracking-tight animate-fade-in"
         set:html={headlineHtml}
@@ -191,7 +191,7 @@ const headlineHtml = headlineText.replace(
   </div>
 
   <!-- Bottom Bar: Social & Vocabulary -->
-  <div class="max-w-[1600px] mx-auto px-8 w-full flex flex-col md:flex-row justify-between items-end md:items-center text-xs font-mono text-gray-400 uppercase tracking-[0.2em] gap-6 mt-8 z-20 animate-fade-in animation-delay-600">
+  <div class="max-w-[1600px] mx-auto px-8 w-full flex flex-col md:flex-row justify-between items-end md:items-center text-xs font-mono text-gray-400 uppercase tracking-[0.2em] gap-6 mt-16 md:mt-20 z-20 animate-fade-in animation-delay-600">
     <div class="flex items-center gap-8">
       <span class="mr-2 text-gray-500 font-semibold tracking-widest text-[10px]">LET'S CONNECT</span>
       {

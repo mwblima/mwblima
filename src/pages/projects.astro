@@ -46,7 +46,9 @@ import "../styles/global.css";
             >
               <!-- Header Image Placeholder -->
               <div class="w-full h-[200px] bg-[#111318] relative overflow-hidden flex items-center justify-center">
-                  <!-- Abstract Graphic -->
+                {project.image ? (
+                  <img src={`${import.meta.env.BASE_URL === '/' ? '' : import.meta.env.BASE_URL}${project.image}`} alt={project.name} class="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-500 group-hover:scale-105" />
+                ) : (
                   <svg class="absolute inset-0 w-full h-full opacity-30" viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
                     <g stroke="#ffffff" stroke-width="0.5" fill="none">
                         {Array.from({length: 15}).map((_, i) => (
@@ -54,6 +56,7 @@ import "../styles/global.css";
                         ))}
                     </g>
                   </svg>
+                )}
               </div>
               
               <!-- Card Content -->
