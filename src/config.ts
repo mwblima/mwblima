@@ -10,7 +10,7 @@ export const siteConfig = {
   description: "Portfolio website of Marcos Winicyus",
   accentColor: "#2A7F6E",
   heroHeadline: "Architecting intelligent systems that transform complexity into clarity.",
-  heroSubheadline: "I design and build scalable data platforms and AI solutions that solve complex problems and generate real business impact.",
+  heroSubheadline: "From distributed data platforms to Agentic AI, I build intelligent systems that help engineering organizations move faster with greater quality and lower operational cost.",
   social: {
     email: "marcoswinicyusbl@gmail.com",
     linkedin: "https://www.linkedin.com/in/marcos-winicyus",
