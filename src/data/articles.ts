@@ -9,7 +9,7 @@ export interface Article {
 
 export const articles: Article[] = [
   {
-    title: "Fundamentals that matter more than chasing every new model's hype",
+    title: "The Second Wave of AI Is About Efficiency",
     date: "AUG 02, 2026",
     category: "AI Engineering & Architecture",
     link: "https://www.linkedin.com/pulse/second-wave-ai-efficiency-marcos-winicyus-rfc2f",
